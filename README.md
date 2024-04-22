@@ -46,13 +46,16 @@ Set up Jenkins with necessary plugins and configure pipelines for CI/CD. Refer t
 ## Set Up SonarQube:
 Configure SonarQube for code quality analysis. Refer to SonarQube documentation for detailed setup instructions.
 ## Usage
-Deploy Infrastructure:
+# 1 Deploy Infrastructure:<br>
 Use Terraform to provision AWS EC2 instances and other necessary resources.<br>
-  terraform init<br>
-  terraform apply
-Build and Deploy Application:
+ using cmd--> terraform init<br>
+ cmd --> terraform apply <br>
+# 2 Build and Deploy Application:
 Use Jenkins pipelines to build and deploy the frontend application.
 Ensure that Docker containers are built with security scanning using Trivy.
 Integrate OWASP testing into the deployment pipeline to ensure application security.
-Code Quality Analysis:
-Utilize SonarQube for code quality analysis. Integrate SonarQube scans into Jenkins pipelines for continuous monitoring of code quality.
+# 3 Code Quality Analysis:
+Utilize SonarQube for code quality analysis. Integrate SonarQube scans into Jenkins pipelines for continuous monitoring of code quality.<br>
+## Contributing
+ Contributions are welcome! Feel free to open issues or pull requests for any improvements or suggestions.br>
+
