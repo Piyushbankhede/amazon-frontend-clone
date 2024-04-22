@@ -30,7 +30,7 @@ The Amazon Frontend Clone project leverages Terraform to provision AWS EC2 insta
 
 1. **Clone the Repository**: 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/Piyushbankhede/amazon-frontend-clone.git
 
    
 ## Install Dependencies:
