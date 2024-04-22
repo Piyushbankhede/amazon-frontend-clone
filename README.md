@@ -47,8 +47,8 @@ Set up Jenkins with necessary plugins and configure pipelines for CI/CD. Refer t
 Configure SonarQube for code quality analysis. Refer to SonarQube documentation for detailed setup instructions.
 ## Usage
 Deploy Infrastructure:
-Use Terraform to provision AWS EC2 instances and other necessary resources.
-  terraform init
+Use Terraform to provision AWS EC2 instances and other necessary resources.<br>
+  terraform init<br>
   terraform apply
 Build and Deploy Application:
 Use Jenkins pipelines to build and deploy the frontend application.
