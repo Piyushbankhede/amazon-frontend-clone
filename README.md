@@ -47,7 +47,8 @@ Set up Jenkins with necessary plugins and configure pipelines for CI/CD. Refer t
 Configure SonarQube for code quality analysis. Refer to SonarQube documentation for detailed setup instructions.
 ## docker 
 "Docker provides a versatile platform to containerize and run our application seamlessly across different environments."<br>
-"Docker Repository: Link to Your Docker Repository"
+[Docker repository](https://hub.docker.com/u/piyushbankhede)
+
 ## Usage
  1 Deploy Infrastructure:<br>
 Use Terraform to provision AWS EC2 instances and other necessary resources.<br>
