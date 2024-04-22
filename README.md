@@ -53,9 +53,11 @@ Use Terraform to provision AWS EC2 instances and other necessary resources.<br>
  2 Build and Deploy Application:
 Use Jenkins pipelines to build and deploy the frontend application.
 Ensure that Docker containers are built with security scanning using Trivy.
-Integrate OWASP testing into the deployment pipeline to ensure application security.
+Integrate OWASP testing into the deployment pipeline to ensure application security.<br>
  3 Code Quality Analysis:
 Utilize SonarQube for code quality analysis. Integrate SonarQube scans into Jenkins pipelines for continuous monitoring of code quality.<br>
 ## Contributing
- Contributions are welcome! Feel free to open issues or pull requests for any improvements or suggestions.br>
+ Contributions are welcome! Feel free to open issues or pull requests for any improvements or suggestions.br>License
+## This project is licensed under the MIT License.
+ 
 
