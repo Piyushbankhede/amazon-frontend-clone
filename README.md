@@ -1,6 +1,3 @@
-# amazon-frontend-clone
-
-i am making a amazon frontend clone using terraform to deploy aws ec instance and using jenkins and trivy  and owasp  docker git and sonarqube so make a readme.md file for me 
 # Amazon Frontend Clone
 
 This project aims to create a clone of the Amazon frontend using various technologies including Terraform, AWS EC2 instances, Jenkins, Trivy, OWASP, Docker, Git, and SonarQube.
@@ -34,3 +31,28 @@ The Amazon Frontend Clone project leverages Terraform to provision AWS EC2 insta
 1. **Clone the Repository**: 
    ```bash
    git clone <repository_url>
+
+   
+## Install Dependencies:
+Install Terraform: Terraform Installation Guide
+Install Docker: Docker Installation Guide
+Install Jenkins: Jenkins Installation Guide
+Install Trivy: Trivy Installation Guide
+Install SonarQube: SonarQube Installation Guide
+## Configure AWS Credentials:
+Ensure that your AWS credentials are configured either through environment variables or AWS CLI.
+## Configure Jenkins:
+Set up Jenkins with necessary plugins and configure pipelines for CI/CD. Refer to Jenkins documentation for detailed setup instructions.
+## Set Up SonarQube:
+Configure SonarQube for code quality analysis. Refer to SonarQube documentation for detailed setup instructions.
+## Usage
+Deploy Infrastructure:
+Use Terraform to provision AWS EC2 instances and other necessary resources.
+  terraform init
+  terraform apply
+Build and Deploy Application:
+Use Jenkins pipelines to build and deploy the frontend application.
+Ensure that Docker containers are built with security scanning using Trivy.
+Integrate OWASP testing into the deployment pipeline to ensure application security.
+Code Quality Analysis:
+Utilize SonarQube for code quality analysis. Integrate SonarQube scans into Jenkins pipelines for continuous monitoring of code quality.
